@@ -10,7 +10,10 @@ dependencies:
   app_links: ^6.4.0
   async: ^2.11.0
   barcode_widget: ^2.0.4
-  bip39: ^1.0.6
+  bip39:
+    git:
+      url: https://github.com/Djihanegh/bip39-dart.git
+      ref: master
   bloc_concurrency: ^0.2.3
   borsh_annotation: ^0.3.2
   cached_network_image: ^3.3.1
@@ -26,7 +29,10 @@ dependencies:
   drift: ^2.15.0
   ec_client_dart:
     path: ../espressocash_client
-  ethereum_addresses: ^1.0.2
+  ethereum_addresses:
+    git:
+      url: https://github.com/Djihanegh/ethereum-addresses-dart.git
+      ref: main
   fast_immutable_collections: ^10.2.2
   firebase_app_installations: ^0.4.0
   firebase_core: ^4.2.0
